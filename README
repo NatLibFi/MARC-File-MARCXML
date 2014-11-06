@@ -1,0 +1,37 @@
+MARC-File-MARCXML version 0.01
+==================================
+
+A subclass of MARC::File specific to the MARCXML format
+
+INSTALLATION
+
+To install this module type the following:
+
+    perl Makefile.PL
+    make
+    make test
+    make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+    MARC::Record
+
+BUGS
+
+    Any bugs should be reported to: https://github.com/NatLibFi/MARC-File-MARCXML
+
+AUTHOR
+
+    Pasi Tuominen <pasi.e.tuominen@helsinki.fi>
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2011-2014 by the University of Helsinki
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.10.1 or,
+at your option, any later version of Perl 5 you may have available.
+
+

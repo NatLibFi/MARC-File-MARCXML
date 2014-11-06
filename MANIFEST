@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/MARC-File-MARCXML.t
+lib/MARC/File/MARCXML.pm
