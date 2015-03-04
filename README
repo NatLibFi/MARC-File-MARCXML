@@ -17,6 +17,8 @@ DEPENDENCIES
 This module requires these other modules and libraries:
 
     MARC::Record
+    XML::DOM
+    XML::Writer
 
 BUGS
 
