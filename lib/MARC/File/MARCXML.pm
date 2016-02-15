@@ -1,8 +1,20 @@
+# 
+# MARCXML implementation for MARC records
+# 
+# Copyright (c) 2011-2014, 2016 University Of Helsinki (The National Library Of Finland)
+# 
+# This file is part of marc-file-marcxml
+# 
+# marc-file-marcxml is free software; you can redistribute it and/or modify it under the terms of either:
+# a) the GNU General Public License as published by the Free Software Foundation; either version 3 (https://www.gnu.org/licenses/gpl-3.0.txt), or (at your option) any later version http://www.fsf.org/licenses/licenses.html#GNUGPL), or
+# b) the "Artistic License" (http://dev.perl.org/licenses/artistic.html).
+#
+#
 package MARC::File::MARCXML;
 
 =head1 NAME
 
-MARC::File::MARCXML - MARCXML-specific file handling
+MARC::File::MARCXML - MARCXML implementation for MARC records
 
 =cut
 
@@ -291,14 +303,16 @@ if you don't want to take the performance hit.
 
 =head1 LICENSE
 
-This code may be distributed under the same terms as Perl itself.
+Copyright (c) 2011-2014, 2016 University Of Helsinki (The National Library Of Finland)
 
-Please note that these modules are not products of or supported by the
-employers of the various contributors to the code.
+This project's source code is dual-licensed under the terms of either:
+
+a) the GNU General Public License as published by the Free Software Foundation; either version 3 (https://www.gnu.org/licenses/gpl-3.0.txt), or (at your option) any later version (http://www.fsf.org/licenses/licenses.html#GNUGPL), or  
+b) the "Artistic License" (http://dev.perl.org/licenses/artistic.html).
 
 =head1 AUTHOR
 
-Pasi Tuominen, C<< <pasi.e.tuominen@helsinki.fi> >>
+The National Library of Finland
 
 =cut
 

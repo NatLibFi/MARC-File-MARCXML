@@ -1,4 +1,4 @@
-MARC-File-MARCXML version 0.01
+MARC-File-MARCXML version 1.0.0
 ==================================
 
 A subclass of MARC::File specific to the MARCXML format
@@ -26,14 +26,14 @@ BUGS
 
 AUTHOR
 
-    Pasi Tuominen <pasi.e.tuominen@helsinki.fi>
+    The National Library of Finland
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2011-2014 by the University of Helsinki
+Copyright (c) 2011-2014, 2016 University Of Helsinki (The National Library Of Finland)
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.10.1 or,
-at your option, any later version of Perl 5 you may have available.
+This project's source code is dual-licensed under the terms of either:
 
+**a)** the GNU General Public License as published by the Free Software Foundation; either version 3 (https://www.gnu.org/licenses/gpl-3.0.txt), or (at your option) any later version (http://www.fsf.org/licenses/licenses.html#GNUGPL), or  
+**b**) the "Artistic License" (http://dev.perl.org/licenses/artistic.html).
 
