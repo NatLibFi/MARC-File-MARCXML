@@ -1,7 +1,7 @@
 MARC-File-MARCXML version 1.0.0
 ==================================
 
-A subclass of MARC::File specific to the MARCXML format
+MARCXML implementation for MARC records
 
 INSTALLATION
 
