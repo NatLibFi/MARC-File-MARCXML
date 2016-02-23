@@ -1,4 +1,4 @@
-# MARCXML implementation for MARC records
+# MARCXML implementation for MARC records [![CPAN](https://img.shields.io/cpan/v/MARC-File-MARCXML.svg)](https://metacpan.org/release/MARC-File-MARCXML) [![Travis](https://img.shields.io/travis/NatLibFi/MARC-File_MARCXML.svg)](https://travis-ci.org/NatLibFi/MARC-File-MARCXML)
 
 ## Installation
 
