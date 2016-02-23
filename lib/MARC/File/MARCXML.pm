@@ -14,6 +14,10 @@ package MARC::File::MARCXML;
 
 MARC::File::MARCXML - MARCXML implementation for MARC records
 
+=head1 DESCRIPTION
+
+MARCXML implementation for MARC records
+
 =cut
 
 use strict;
