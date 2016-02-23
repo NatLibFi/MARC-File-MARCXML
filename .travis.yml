@@ -1,0 +1,8 @@
+language: perl
+perl:
+  - "5.10"
+install:
+  - cpanm --quiet --notest Dist::Zilla
+  - cpanm --quiet --installdeps --notest .
+script:
+  - dzil test

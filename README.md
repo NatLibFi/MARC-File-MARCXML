@@ -1,39 +1,41 @@
-MARC-File-MARCXML version 1.0.0
-==================================
+# MARCXML implementation for MARC records
 
-MARCXML implementation for MARC records
+## Installation
 
-INSTALLATION
+To build the project run the following command ([Dist::Zilla](https://metacpan.org/pod/Dist::Zilla) must  be installed):
 
-To install this module type the following:
+```sh
+dzil build
+```
 
-    perl Makefile.PL
-    make
-    make test
-    make install
+## Testing
 
-DEPENDENCIES
+To run tests run the following command:
 
-This module requires these other modules and libraries:
+```sh
+dzil test
+```
 
-    MARC::Record
-    XML::DOM
-    XML::Writer
+## Usage
 
-BUGS
+### Decoding from string to MARC::Record
 
-    Any bugs should be reported to: https://github.com/NatLibFi/MARC-File-MARCXML
+```perl
+use MARC::File::MARCXML;
 
-AUTHOR
+my $record = MARC::File::MARCXML->decode($str_xml);
+```
 
-    The National Library of Finland
+### Encoding from MARC::Record to string
 
-COPYRIGHT AND LICENCE
+```perl
+use MARC::File::MARCXML;
 
-Copyright (c) 2011-2014, 2016 University Of Helsinki (The National Library Of Finland)
+my $str = MARC::File::MARCXML->encode($record);
+```
 
-This project's source code is dual-licensed under the terms of either:
+## Copyright and licensing
 
-**a)** the GNU General Public License as published by the Free Software Foundation; either version 3 (https://www.gnu.org/licenses/gpl-3.0.txt), or (at your option) any later version (http://www.fsf.org/licenses/licenses.html#GNUGPL), or  
-**b**) the "Artistic License" (http://dev.perl.org/licenses/artistic.html).
+Copyright (c) 2011-2014, 2016 **University Of Helsinki (The National Library Of Finland)**
 
+This project's source code is licensed under the terms of **GNU General Public License Version 3**.
