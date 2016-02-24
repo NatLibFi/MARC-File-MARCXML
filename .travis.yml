@@ -4,7 +4,7 @@ perl:
 before_install:
   - cpanm Dist::Zilla
 install:
-  - dzil authordeps | cpanm
-  - dzil listdeps | cpanm
+  - dzil authordeps | cpanm -n
+  - dzil listdeps | cpanm -n
 script:
   - dzil test
