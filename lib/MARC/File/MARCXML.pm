@@ -1,7 +1,7 @@
 #
 # MARCXML implementation for MARC records
 #
-# Copyright (c) 2011-2014, 2016 University Of Helsinki (The National Library Of Finland)
+# Copyright (c) 2011-2014, 2016, 2021 University Of Helsinki (The National Library Of Finland)
 #
 # This file is part of marc-file-marcxml
 #
@@ -203,8 +203,9 @@ sub decode {
 	    }
 	}
 
-	$marc->append_fields($field);
-
+	if ( defined($field) ) {
+	    $marc->append_fields($field);
+	}
 
     }
     $doc->dispose();
@@ -293,7 +294,7 @@ if you don't want to take the performance hit.
 
 =head1 LICENSE
 
-Copyright (c) 2011-2014, 2016 University Of Helsinki (The National Library Of Finland)
+Copyright (c) 2011-2014, 2016, 2021 University Of Helsinki (The National Library Of Finland)
     
 This project's source code is licensed under the terms of GNU General Public License Version 3.
 
